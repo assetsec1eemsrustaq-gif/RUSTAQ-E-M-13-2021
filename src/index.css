@@ -1,0 +1,13 @@
+/* Simple CSS fallback. You can add Tailwind setup later. */
+body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; padding:0; background:#f7fafc; }
+.container { max-width:1100px; margin:24px auto; padding:16px; background: #fff; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.03); }
+.header { display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; }
+.button { background:#0ea5a4; color:white; padding:8px 12px; border-radius:6px; cursor:pointer; border:none; }
+.table { width:100%; border-collapse:collapse; margin-top:12px; }
+.table th, .table td { border:1px solid #e6edf0; padding:8px; text-align:left; }
+.form-row { display:flex; gap:8px; margin-bottom:8px; align-items:center; flex-wrap:wrap; }
+.input { padding:8px; border:1px solid #d1d5db; border-radius:4px; }
+.small { width:120px; }
+.select { padding:8px; border:1px solid #d1d5db; border-radius:4px; }
+.photo-thumb { width:80px; height:60px; object-fit:cover; border:1px solid #ccc; margin-right:6px; }
+.notice { background:#f8fafc; padding:8px; border-left:4px solid #0ea5a4; margin-bottom:12px; }
