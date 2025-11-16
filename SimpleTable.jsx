@@ -1,0 +1,1 @@
+import SimpleTable from './SimpleTable';
